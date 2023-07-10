@@ -4,10 +4,10 @@ object Q4 {
 
   def OddEven(num:Int):String={
     if(num == 0){
-      "Even";
+      "Odd";
     }
     else if(num==1){
-      "Odd";
+      "Even";
     }
     else{
       OddEven(num/2);
