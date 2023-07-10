@@ -1,18 +1,30 @@
 package Tute5
 
 object Q5 {
-
-  def Addition(num:Int):Int={
-    if(num <= 0){
-      0
+  def OddEven(num: Int): Boolean = {
+    if (num == 0) {
+      true
     }
-    else if(num%2 == 0){
-      (num -2) + Addition(num-2)
+    else if (num == 1) {
+      false
     }
-    else{
-      2
-
+    else {
+      OddEven(num / 2);
     }
   }
+
+  def EvenSeq(num:Int):Int={
+    if(num>0){
+      //EvenSeq(num-1);
+      0
+    }
+    else{
+      if(OddEven(num)){
+        0
+      }
+      else{ 9}
+    }
+  }
+
 
 }

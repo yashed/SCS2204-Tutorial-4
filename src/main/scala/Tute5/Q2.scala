@@ -8,7 +8,7 @@ object Q2 {
   }
 
   def prime(p:Int , q:Int=2):Boolean = q match {
-    case y if(p == y) => true ````
+    case y if(p == y) => true
     case x if GCD(x,p) >1 => false
     case x=> prime(p,x+1)
   }
