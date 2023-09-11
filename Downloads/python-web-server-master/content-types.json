@@ -1,0 +1,28 @@
+{
+    "php": ["text/html", "php", false],
+    "html": ["text/html", null, false],
+    "css": ["text/css", null, false],
+    "js": ["text/javascript", null, false],
+    "jpg": ["image/jpeg", null, true],
+    "jpeg": ["image/jpeg", null, true],
+    "png": ["image/png", null, true],
+    "gif": ["image/gif", null, true],
+    "bmp": ["image/bmp", null, true],
+    "ico": ["image/x-icon", null, true],
+    "svg": ["image/svg+xml", "svg", null, true],
+    "webp": ["image/webp", null, true],
+    "tiff": ["image/tiff", null, true],
+    "pdf": ["application/pdf", null, true],
+    "doc": ["application/msword", null, true],
+    "docx": ["application/vnd.openxmlformats-officedocument.wordprocessingml.document", null, true],
+    "ppt": ["application/vnd.ms-powerpoint", null, true],
+    "pptx": [
+        "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+        null,
+        true
+    ],
+    "xls": ["application/vnd.ms-excel", null, false],
+    "xlsx": ["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", null, true],
+    "json": ["application/json", null, false],
+    "xml": ["application/xml", null, false]
+}
